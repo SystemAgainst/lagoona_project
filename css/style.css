@@ -338,5 +338,19 @@ section {
     padding: 13px 20px;
     border-radius: 10px;
     border: solid 1px #CC9933;
+    cursor: pointer;
     color: #CC9933;
+    transition: background-color 0.5s linear;
+}
+.wrapper__hotel-item__rooms:hover {
+    color: white;
+    background-color: #CC9933;
+}
+
+/* ====== CHOICE OF TOUR =====*/
+.choice_of_tour {
+
+}
+.choice_of_tour__bg {
+    background-color: #E9E9E9;
 }
